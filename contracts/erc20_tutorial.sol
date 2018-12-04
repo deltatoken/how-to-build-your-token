@@ -1,7 +1,7 @@
 pragma solidity ^0.4.24;
 
 // ----------------------------------------------------------------------------
-// 'PABLO' token
+// 'Pablo' token
 //
 // Deployed to : 0xF6B79E3C34F0Fa42A1F52fc57f811765687a9c45  : פורסם לכתובת
 // Symbol      : PABLO  : סמל המטבע
@@ -100,7 +100,7 @@ contract Owned {
 // ERC20 Token, with the addition of symbol, name and decimals and assisted
 // token transfers
 // ----------------------------------------------------------------------------
-contract FucksToken is ERC20Interface, Owned, SafeMath {
+contract PabloToken is ERC20Interface, Owned, SafeMath {
     string public symbol;
     string public  name;
     uint8 public decimals;
@@ -118,8 +118,8 @@ contract FucksToken is ERC20Interface, Owned, SafeMath {
         name = "Pablo Token";
         decimals = 18;
         _totalSupply = 100000000000000000000000000;
-        balances[0xF6B79E3C34F0Fa42A1F52fc57f811765687a9c45] = _totalSupply;
-        emit Transfer(address(0), 0xF6B79E3C34F0Fa42A1F52fc57f811765687a9c45, _totalSupply);
+        balances[0xEd18a1D2AAda65c31C9386ce729E9914ccf4223c] = _totalSupply;
+        emit Transfer(address(0), 0xEd18a1D2AAda65c31C9386ce729E9914ccf4223c, _totalSupply);
     }
 
 
