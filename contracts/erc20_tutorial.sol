@@ -3,11 +3,11 @@ pragma solidity ^0.4.24;
 // ----------------------------------------------------------------------------
 // 'Pablo' token
 //
-// Deployed to : 0xF6B79E3C34F0Fa42A1F52fc57f811765687a9c45  : פורסם לכתובת
-// Symbol      : PABLO  : סמל המטבע
-// Name        : Pablo Token  :  שם מלא למטבע שלנו
-// Total supply: 21000000000000   : מספר המטבעות שהונפקו 
-// Decimals    : 10  :  מספר הנקודות העשרוניות למטבע 
+// Deployed to : 0xF6B79E3C34F0Fa42A1F52fc57f811765687a9c45
+// Symbol      : PABLO
+// Name        : Pablo Token
+// Total supply: 21000000000000
+// Decimals    : 10
 //
 // Enjoy.
 //
