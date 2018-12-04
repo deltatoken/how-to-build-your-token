@@ -6,8 +6,8 @@ pragma solidity ^0.4.24;
 // Deployed to : 0xF6B79E3C34F0Fa42A1F52fc57f811765687a9c45  : פורסם לכתובת
 // Symbol      : PABLO  : סמל המטבע
 // Name        : Pablo Token  :  שם מלא למטבע שלנו
-// Total supply: 100000000   : מספר המטבעות שהונפקו 
-// Decimals    : 18  :  מספר הנקודות העשרוניות למטבע 
+// Total supply: 21000000000000   : מספר המטבעות שהונפקו 
+// Decimals    : 10  :  מספר הנקודות העשרוניות למטבע 
 //
 // Enjoy.
 //
@@ -116,8 +116,8 @@ contract PabloToken is ERC20Interface, Owned, SafeMath {
     constructor() public {
         symbol = "PABLO";
         name = "Pablo Token";
-        decimals = 18;
-        _totalSupply = 100000000000000000000000000;
+        decimals = 10;
+        _totalSupply = 21000000000000;
         balances[0xEd18a1D2AAda65c31C9386ce729E9914ccf4223c] = _totalSupply;
         emit Transfer(address(0), 0xEd18a1D2AAda65c31C9386ce729E9914ccf4223c, _totalSupply);
     }
